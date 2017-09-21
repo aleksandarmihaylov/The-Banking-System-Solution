@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using The_Banking_System.Models;
 
 namespace The_Banking_System
 {
@@ -10,6 +11,8 @@ namespace The_Banking_System
     {
         static void Main(string[] args)
         {
+            Engine engine = new Engine();
+            engine.Run();
         }
     }
 }
